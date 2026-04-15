@@ -1,6 +1,6 @@
 #abrir arquivo para escrita
 with open('arquivo.txt', 'w', encoding='UTF-8') as file:
-    file.write('Olá, mundo!')
+    file.write('Olá, mundo!\n')
     file.write('Linha 1\n')
     file.write('Linha 2\n')
     file.write('Linha 3\n')
